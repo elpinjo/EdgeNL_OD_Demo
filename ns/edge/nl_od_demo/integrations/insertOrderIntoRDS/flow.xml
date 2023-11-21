@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="1.0" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<SEQUENCE TIMEOUT="" EXIT-ON="FAILURE" FORM="TRY">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:addCustomer" VALIDATE-IN="" VALIDATE-OUT="">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/customer;2;0/name;1;0" TO="/addCustomerInput;2;0/name;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/customer;2;0/city;1;0" TO="/addCustomerInput;2;0/city;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/customer;2;0/postalcode;1;0" TO="/addCustomerInput;2;0/postalcode;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/customer;2;0/crm_id;1;0" TO="/addCustomerInput;2;0/crm_id;1;0">
+</MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionName;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:AWS_RDS</value>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<MAP MODE="OUTPUT">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPDELETE FIELD="/$connectionName;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/addCustomerInput;2;0">
+</MAPDELETE>
+</MAP>
+</INVOKE>
+
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:addOrder" VALIDATE-IN="" VALIDATE-OUT="">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/orderNumber;1;0" TO="/addOrderInput;2;0/ordernr;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/reference;1;0" TO="/addOrderInput;2;0/reference;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/totalAmount;1;0" TO="/addOrderInput;2;0/total;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/totalTaxes;1;0" TO="/addOrderInput;2;0/tax;1;0">
+</MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionName;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:AWS_RDS</value>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<MAP MODE="OUTPUT">
+  <COMMENT></COMMENT>
+</MAP>
+</INVOKE>
+
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:addLineitems" VALIDATE-IN="" VALIDATE-OUT="">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" MODE="INPUT">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionName;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:AWS_RDS</value>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+</INVOKE>
+</SEQUENCE>
+
+<SEQUENCE EXIT-ON="FAILURE" FORM="CATCH">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+</SEQUENCE>
+</SEQUENCE>
+</FLOW>
