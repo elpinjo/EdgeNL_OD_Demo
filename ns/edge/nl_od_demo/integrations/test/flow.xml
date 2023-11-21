@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:addLineItem" VALIDATE-IN="" VALIDATE-OUT="">
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:addLineitems" VALIDATE-IN="" VALIDATE-OUT="">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
