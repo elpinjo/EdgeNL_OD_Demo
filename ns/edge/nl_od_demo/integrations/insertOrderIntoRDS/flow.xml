@@ -1811,9 +1811,6 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems(1);2;0/lineNumber;1;0" TO="/inputs;2;0/linenr;1;0">
-</MAPCOPY>
-
 <MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems(1);2;0/SKU;1;0" TO="/inputs;2;0/SKU;1;0">
 </MAPCOPY>
 

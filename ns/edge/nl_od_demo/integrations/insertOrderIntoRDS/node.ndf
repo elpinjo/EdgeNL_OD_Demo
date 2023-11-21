@@ -65,7 +65,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">misja.heuveling@softwareag.com</value>
-    <value name="lastModifiedDate">1700610535186</value>
+    <value name="lastModifiedDate">1700610623746</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -339,7 +339,6 @@
       <null name="/0/5/0/2"/>
       <null name="/0/5/0/3"/>
       <null name="/0/5/0/4"/>
-      <null name="/0/5/0/5"/>
       <record name="/0/6" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
