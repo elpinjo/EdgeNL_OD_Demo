@@ -65,11 +65,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">misja.heuveling@softwareag.com</value>
-    <value name="lastModifiedDate">1700610451998</value>
+    <value name="lastModifiedDate">1700610535186</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">25e77f0d10a848f385c16309f53f4969</value>
+      <value name="id">default</value>
       <value name="group">default</value>
-      <value name="name">NL_MIHE_Laptop</value>
+      <value name="name">Default (Cloud)</value>
     </record>
     <value name="displayName">insertOrderIntoRDS</value>
     <value name="description"></value>
