@@ -38,6 +38,14 @@ services:
   packages:
   - name: EdgeNL_OD_DEMO
     version: "1.0"
+- serviceName: edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:getCustomerByZipAndName
+  packages:
+  - name: EdgeNL_OD_DEMO
+    version: "1.0"
+- serviceName: edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:getOrderNumber
+  packages:
+  - name: EdgeNL_OD_DEMO
+    version: "1.0"
 packages:
 - name: EdgeNL_OD_DEMO
   gitServerName: NL_MIHE_Github
