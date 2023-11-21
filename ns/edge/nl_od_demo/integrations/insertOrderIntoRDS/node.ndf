@@ -65,7 +65,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">misja.heuveling@softwareag.com</value>
-    <value name="lastModifiedDate">1700610623746</value>
+    <value name="lastModifiedDate">1700610731368</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -299,47 +299,6 @@
       </record>
       <null name="/0/4/0"/>
       <record name="/0/5" javaclass="com.wm.util.Values">
-        <value name="name">REPEATINPUTOUTPUT</value>
-        <value name="itemType">CONTROLS</value>
-        <record name="in_array" javaclass="com.wm.util.Values">
-          <value name="name">/order/lineItems</value>
-          <value name="type">record</value>
-          <value name="dim">1</value>
-          <Boolean name="isLink">false</Boolean>
-          <value name="field_name">lineItems</value>
-        </record>
-        <record name="out_array" javaclass="com.wm.util.Values">
-          <value name="name">inputs</value>
-          <value name="type">record</value>
-          <value name="dim">1</value>
-          <Boolean name="isLink">false</Boolean>
-          <value name="field_name">inputs</value>
-          <null name="wrapper_type"/>
-        </record>
-        <number name="nodeIndex" type="Long">5</number>
-      </record>
-      <record name="/0/5/0" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">8</number>
-        <number name="nodeIndex" type="Long">0</number>
-        <array name="map" type="object" depth="1">
-        </array>
-        <array name="mapSet" type="object" depth="1">
-        </array>
-        <array name="mapDelete" type="object" depth="1">
-        </array>
-        <array name="transformer" type="object" depth="1">
-        </array>
-        <array name="lookupTransformer" type="object" depth="1">
-        </array>
-      </record>
-      <null name="/0/5/0/0"/>
-      <null name="/0/5/0/1"/>
-      <null name="/0/5/0/2"/>
-      <null name="/0/5/0/3"/>
-      <null name="/0/5/0/4"/>
-      <record name="/0/6" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
@@ -385,12 +344,12 @@
         <value name="connectionNSName">edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:AWS_RDS</value>
         <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
-        <number name="ui_step_index" type="Long">9</number>
-        <number name="nodeIndex" type="Long">6</number>
+        <number name="ui_step_index" type="Long">7</number>
+        <number name="nodeIndex" type="Long">5</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
-      <record name="/0/7" javaclass="com.wm.util.Values">
+      <record name="/0/6" javaclass="com.wm.util.Values">
         <value name="name">REPEAT</value>
         <value name="itemType">CONTROLS</value>
         <record name="in_array" javaclass="com.wm.util.Values">
@@ -402,7 +361,7 @@
         </record>
         <number name="nodeIndex" type="Long">5</number>
       </record>
-      <record name="/0/7/0" javaclass="com.wm.util.Values">
+      <record name="/0/6/0" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
@@ -453,7 +412,7 @@
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
-      <record name="/0/8" javaclass="com.wm.util.Values">
+      <record name="/0/7" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">8</number>
@@ -469,13 +428,13 @@
         <array name="lookupTransformer" type="object" depth="1">
         </array>
       </record>
-      <record name="/0/8/0" javaclass="com.wm.util.Values">
+      <record name="/0/7/0" javaclass="com.wm.util.Values">
       </record>
-      <record name="/0/8/1" javaclass="com.wm.util.Values">
+      <record name="/0/7/1" javaclass="com.wm.util.Values">
       </record>
-      <record name="/0/8/2" javaclass="com.wm.util.Values">
+      <record name="/0/7/2" javaclass="com.wm.util.Values">
       </record>
-      <record name="/0/8/3" javaclass="com.wm.util.Values">
+      <record name="/0/7/3" javaclass="com.wm.util.Values">
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
