@@ -1,6 +1,11 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.nl_od_demo.integrations:test
+  packages:
+  - name: EdgeNL_OD_DEMO
+    version: "1.0"
 packages:
 - name: EdgeNL_OD_DEMO
   gitServerName: NL_MIHE_Github
