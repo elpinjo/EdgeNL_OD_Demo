@@ -1811,19 +1811,19 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems;2;1/lineNumber;1;0" TO="/inputs;2;0/linenr;1;0">
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems(1);2;0/lineNumber;1;0" TO="/inputs;2;0/linenr;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems;2;1/SKU;1;0" TO="/inputs;2;0/SKU;1;0">
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems(1);2;0/SKU;1;0" TO="/inputs;2;0/SKU;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems;2;1/amount;1;0" TO="/inputs;2;0/amount;1;0">
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems(1);2;0/amount;1;0" TO="/inputs;2;0/amount;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems;2;1/totalPrice;1;0" TO="/inputs;2;0/totalprice;1;0">
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems(1);2;0/unitPrice;1;0" TO="/inputs;2;0/unitprice;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems;2;1/unitPrice;1;0" TO="/inputs;2;0/unitprice;1;0">
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems(1);2;0/totalPrice;1;0" TO="/inputs;2;0/totalprice;1;0">
 </MAPCOPY>
 
 <MAPCOPY FROM="/getOrderNumberOutput;2;0/results;2;1/id_1;1;0" TO="/inputs;2;0/orderid;1;0">
