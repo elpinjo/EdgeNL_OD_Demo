@@ -6,6 +6,10 @@ services:
   packages:
   - name: EdgeNL_OD_DEMO
     version: "1.0"
+- serviceName: edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:AWS_RDS
+  packages:
+  - name: EdgeNL_OD_DEMO
+    version: "1.0"
 packages:
 - name: EdgeNL_OD_DEMO
   gitServerName: NL_MIHE_Github
@@ -13,3 +17,7 @@ packages:
   gitUsername: elpinjo
   gitToken: edge.scaffolding.EdgeNL_OD_DEMO.NL_MIHE_Github.gitToken
   gitBranch: main
+- name: WmJDBCAdapter
+  wpmServer: https://packages.softwareag.com
+  wpmRegistry: softwareag
+  wpmToken: edge.scaffolding.WmJDBCAdapter.https://packages.softwareag.com.wpmToken
