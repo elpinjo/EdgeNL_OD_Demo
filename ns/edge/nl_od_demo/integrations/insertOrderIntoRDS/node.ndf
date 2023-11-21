@@ -64,9 +64,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">misja.heuveling@softwareag.com</value>
-    <value name="createdDate">1700605712956</value>
-    <value name="lastModifiedDate">1700605712956</value>
+    <value name="lastModifiedBy">misja.heuveling@softwareag.com</value>
+    <value name="lastModifiedDate">1700607325742</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <null name="group"/>
@@ -137,6 +136,56 @@
         <value name="name">Database</value>
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
+          <value name="operationName">getCustomerByZipAndName</value>
+          <value name="isCustom">true</value>
+          <value name="operationType">actions</value>
+          <value name="connectionType">sagcloud</value>
+          <value name="projectName">edge.nl_od_demo</value>
+        </record>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">true</Boolean>
+        <Boolean name="allowCustomOperations">true</Boolean>
+        <value name="allowDeleteApplication">false</value>
+        <value name="allowUpdateApplication">false</value>
+        <null name="certified"/>
+        <Boolean name="deprecated">false</Boolean>
+        <value name="description">Database Application enables you to perform database operation</value>
+        <null name="icon"/>
+        <value name="packageName">WmJDBCAdapter</value>
+        <value name="type">Adapters</value>
+        <value name="version">1.0</value>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">AWS_RDS</value>
+          <value name="connectionType">sagcloud</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:AWS_RDS</value>
+        <value name="connectionType">sagcloud</value>
+        <Boolean name="accountReferenceResolved">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+        <null name="mapSet"/>
+        <array name="inputMap" type="object" depth="1">
+        </array>
+        <array name="outputMap" type="object" depth="1">
+        </array>
+        <number name="ui_step_index" type="Long">3</number>
+        <number name="nodeIndex" type="Long">1</number>
+        <null name="outputMapSet"/>
+      </record>
+      <record name="/0/2" javaclass="com.wm.util.Values">
+        <value name="itemType">APPS</value>
+        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
+        <value name="name">Database</value>
+        <value name="providerName">WmJDBCAdapter</value>
+        <record name="operation" javaclass="com.wm.util.Values">
           <value name="operationName">addOrder</value>
           <null name="description"/>
           <value name="isCustom">true</value>
@@ -177,18 +226,80 @@
         <value name="connectionNSName">edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:AWS_RDS</value>
         <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
-        <number name="ui_step_index" type="Long">3</number>
-        <number name="nodeIndex" type="Long">1</number>
+        <number name="ui_step_index" type="Long">4</number>
+        <number name="nodeIndex" type="Long">2</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
-      <record name="/0/2" javaclass="com.wm.util.Values">
+      <record name="/0/3" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
-          <value name="operationName">addLineitems</value>
+          <value name="operationName">getOrderNumber</value>
+          <value name="isCustom">true</value>
+          <value name="operationType">actions</value>
+          <value name="connectionType">sagcloud</value>
+          <value name="projectName">edge.nl_od_demo</value>
+        </record>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">true</Boolean>
+        <Boolean name="allowCustomOperations">true</Boolean>
+        <value name="allowDeleteApplication">false</value>
+        <value name="allowUpdateApplication">false</value>
+        <null name="certified"/>
+        <Boolean name="deprecated">false</Boolean>
+        <value name="description">Database Application enables you to perform database operation</value>
+        <null name="icon"/>
+        <value name="packageName">WmJDBCAdapter</value>
+        <value name="type">Adapters</value>
+        <value name="version">1.0</value>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">AWS_RDS</value>
+          <value name="connectionType">sagcloud</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:AWS_RDS</value>
+        <value name="connectionType">sagcloud</value>
+        <Boolean name="accountReferenceResolved">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+        <null name="mapSet"/>
+        <array name="inputMap" type="object" depth="1">
+        </array>
+        <array name="outputMap" type="object" depth="1">
+        </array>
+        <number name="ui_step_index" type="Long">5</number>
+        <number name="nodeIndex" type="Long">3</number>
+        <null name="outputMapSet"/>
+      </record>
+      <record name="/0/4" javaclass="com.wm.util.Values">
+        <value name="name">REPEAT</value>
+        <value name="itemType">CONTROLS</value>
+        <record name="in_array" javaclass="com.wm.util.Values">
+          <value name="name">/order/lineItems</value>
+          <value name="type">record</value>
+          <value name="dim">1</value>
+          <Boolean name="isLink">false</Boolean>
+          <value name="field_name">lineItems</value>
+        </record>
+        <number name="nodeIndex" type="Long">4</number>
+      </record>
+      <record name="/0/4/0" javaclass="com.wm.util.Values">
+        <value name="itemType">APPS</value>
+        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
+        <value name="name">Database</value>
+        <value name="providerName">WmJDBCAdapter</value>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="operationName">addLineItem</value>
           <null name="description"/>
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
@@ -215,8 +326,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1">
         </array>
-        <array name="mapSet" type="object" depth="1">
-        </array>
+        <null name="mapSet"/>
         <array name="inputMap" type="object" depth="1">
         </array>
         <array name="outputMap" type="object" depth="1">
@@ -229,6 +339,10 @@
         <value name="connectionNSName">edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:AWS_RDS</value>
         <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
+        <number name="ui_step_index" type="Long">7</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+        <null name="outputMapSet"/>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
