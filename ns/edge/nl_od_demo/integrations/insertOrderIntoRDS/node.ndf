@@ -65,7 +65,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">misja.heuveling@softwareag.com</value>
-    <value name="lastModifiedDate">1700608676794</value>
+    <value name="lastModifiedDate">1700608728368</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -339,6 +339,7 @@
       <null name="/0/5/0/2"/>
       <null name="/0/5/0/3"/>
       <null name="/0/5/0/4"/>
+      <null name="/0/5/0/5"/>
       <record name="/0/6" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
@@ -372,8 +373,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1">
         </array>
-        <array name="mapSet" type="object" depth="1">
-        </array>
+        <null name="mapSet"/>
         <array name="inputMap" type="object" depth="1">
         </array>
         <array name="outputMap" type="object" depth="1">
@@ -386,9 +386,10 @@
         <value name="connectionNSName">edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:AWS_RDS</value>
         <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
-        <number name="ui_step_index" type="Long">8</number>
-        <number name="nodeIndex" type="Long">5</number>
+        <number name="ui_step_index" type="Long">9</number>
+        <number name="nodeIndex" type="Long">6</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <null name="outputMapSet"/>
       </record>
       <record name="/0/7" javaclass="com.wm.util.Values">
         <value name="name">REPEAT</value>
