@@ -1605,6 +1605,21 @@
 
   <!-- nodes -->
 
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems;2;1/lineNumber;1;0" TO="/addLineItemInput;2;0/linenr;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems;2;1/SKU;1;0" TO="/addLineItemInput;2;0/SKU;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems;2;1/amount;1;0" TO="/addLineItemInput;2;0/amount;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems;2;1/unitPrice;1;0" TO="/addLineItemInput;2;0/unitprice;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/order;4;0;edge.nl_od_demo.documenttypes:Order/lineItems;2;1/totalPrice;1;0" TO="/addLineItemInput;2;0/totalprice;1;0">
+</MAPCOPY>
+
 <MAPCOPY FROM="/getOrderNumberOutput;2;0/results;2;1/id_1;1;0" TO="/addLineItemInput;2;0/orderid;1;0">
 </MAPCOPY>
 
@@ -1688,6 +1703,61 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">linenr</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">SKU</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">amount</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">unitprice</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">totalprice</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
