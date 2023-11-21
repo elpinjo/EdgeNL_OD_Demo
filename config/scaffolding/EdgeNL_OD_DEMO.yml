@@ -46,6 +46,14 @@ services:
   packages:
   - name: EdgeNL_OD_DEMO
     version: "1.0"
+- serviceName: pub.flow:getLastFailureCaught
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
 packages:
 - name: EdgeNL_OD_DEMO
   gitServerName: NL_MIHE_Github
