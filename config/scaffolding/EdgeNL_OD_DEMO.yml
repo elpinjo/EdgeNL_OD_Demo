@@ -65,3 +65,9 @@ packages:
   wpmServer: https://packages.softwareag.com
   wpmRegistry: softwareag
   wpmToken: edge.scaffolding.WmJDBCAdapter.https://packages.softwareag.com.wpmToken
+- name: OD_Demo_Utils
+  gitServerName: NL_MIHE_Github
+  gitUrl: https://github.com/elpinjo
+  gitUsername: elpinjo
+  gitToken: edge.scaffolding.OD_Demo_Utils.NL_MIHE_Github.gitToken
+  gitBranch: master
