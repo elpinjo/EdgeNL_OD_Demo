@@ -2166,7 +2166,7 @@
 </MAP>
 </INVOKE>
 
-<EXIT FROM="$parent" SIGNAL="FAILURE" FAILURE-MESSAGE="Unable to add Order">
+<EXIT FROM="$parent" SIGNAL="FAILURE" FAILURE-MESSAGE="Unable to add Order %failureMessage%">
   <COMMENT></COMMENT>
 </EXIT>
 </SEQUENCE>
