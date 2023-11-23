@@ -66,7 +66,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">misja.heuveling@softwareag.com</value>
-    <value name="lastModifiedDate">1700780494001</value>
+    <value name="lastModifiedDate">1700780641483</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -187,6 +187,77 @@
       <null name="/2/0/3"/>
       <null name="/2/0/4"/>
       <null name="/2/0/5"/>
+      <record name="/2/1" javaclass="com.wm.util.Values">
+        <value name="itemType">APPS</value>
+        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
+        <value name="name">Database</value>
+        <value name="providerName">WmJDBCAdapter</value>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="operationName">getOrderDetails</value>
+          <null name="description"/>
+          <value name="isCustom">true</value>
+          <value name="operationType">actions</value>
+          <value name="projectName">edge.nl_od_demo</value>
+        </record>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">true</Boolean>
+        <Boolean name="allowCustomOperations">true</Boolean>
+        <value name="allowDeleteApplication">false</value>
+        <value name="allowUpdateApplication">false</value>
+        <null name="certified"/>
+        <Boolean name="deprecated">false</Boolean>
+        <value name="description">Database Application enables you to perform database operation</value>
+        <null name="icon"/>
+        <value name="packageName">WmJDBCAdapter</value>
+        <value name="type">Adapters</value>
+        <value name="version">1.0</value>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+        <null name="mapSet"/>
+        <array name="inputMap" type="object" depth="1">
+        </array>
+        <array name="outputMap" type="object" depth="1">
+        </array>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">AWS_RDS</value>
+          <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:AWS_RDS</value>
+        <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+        <Boolean name="accountReferenceResolved">true</Boolean>
+        <number name="ui_step_index" type="Long">5</number>
+        <number name="nodeIndex" type="Long">1</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+        <null name="outputMapSet"/>
+      </record>
+      <record name="/2/2" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">6</number>
+        <number name="nodeIndex" type="Long">2</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <null name="/2/2/0"/>
+      <null name="/2/2/1"/>
+      <null name="/2/2/2"/>
+      <null name="/2/2/3"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
