@@ -193,11 +193,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">jan.vanderlugt@softwareag.com</value>
-    <value name="lastModifiedDate">1699454495034</value>
+    <value name="lastModifiedDate">1700758534140</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
+      <value name="id">ada4268d38e144caac3abc158b660ddd</value>
+      <value name="group">default</value>
+      <value name="name">NL_JL_Edge_1</value>
     </record>
     <value name="displayName">GetEmployees</value>
     <value name="description"></value>
