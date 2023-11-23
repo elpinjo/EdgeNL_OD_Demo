@@ -1075,5 +1075,19 @@
 <MAPCOPY FROM="/getOrderDetailsOutput;2;0/results;2;1/crm_id_1;1;0" TO="/orders;4;0;edge.nl_od_demo.documenttypes:Order/customer;2;0/crm_id;1;0">
 </MAPCOPY>
 </MAP>
+
+<LOOP NAME="REPEATINPUTOUTPUT" IN-ARRAY="/getOrderDetailsOutput/results" OUT-ARRAY="/orders/lineItems">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT></COMMENT>
+</MAP>
+</LOOP>
+
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+</SEQUENCE>
 </LOOP>
 </FLOW>
