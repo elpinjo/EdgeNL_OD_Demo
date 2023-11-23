@@ -66,7 +66,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">misja.heuveling@softwareag.com</value>
-    <value name="lastModifiedDate">1700780641483</value>
+    <value name="lastModifiedDate">1700780731344</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -258,6 +258,36 @@
       <null name="/2/2/1"/>
       <null name="/2/2/2"/>
       <null name="/2/2/3"/>
+      <record name="/2/3" javaclass="com.wm.util.Values">
+        <value name="name">REPEATINPUTOUTPUT</value>
+        <value name="itemType">CONTROLS</value>
+        <record name="in_array" javaclass="com.wm.util.Values">
+          <value name="name">getOrderDetailsOutput/results</value>
+          <value name="type">record</value>
+          <value name="dim">1</value>
+          <Boolean name="isLink">false</Boolean>
+          <value name="field_name">results</value>
+          <null name="wrapper_type"/>
+        </record>
+        <record name="out_array" javaclass="com.wm.util.Values">
+          <value name="name">/orders/lineItems</value>
+          <value name="type">record</value>
+          <value name="dim">1</value>
+          <Boolean name="isLink">false</Boolean>
+          <value name="field_name">lineItems</value>
+        </record>
+        <number name="nodeIndex" type="Long">3</number>
+      </record>
+      <record name="/2/3/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">8</number>
+        <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/2/4" javaclass="com.wm.util.Values">
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
+      </record>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>

@@ -90,6 +90,12 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.560
+- serviceName: edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:getOrderDetails
+  packages:
+  - name: EdgeNL_OD_DEMO
+    version: "1.0"
+  - name: OD_Demo_Utils
+    version: "1.0"
 packages:
 - name: EdgeNL_OD_DEMO
   gitServerName: NL_MIHE_Github
