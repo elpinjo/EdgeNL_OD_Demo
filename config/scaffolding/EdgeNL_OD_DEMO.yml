@@ -70,6 +70,22 @@ services:
   packages:
   - name: OD_Demo_Utils
     version: "1.0"
+- serviceName: edge.nl_od_demo.integrations:GetEmployees
+  packages:
+  - name: EdgeNL_OD_DEMO
+    version: "1.0"
+  - name: OD_Demo_Utils
+    version: "1.0"
+- serviceName: edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:Get_Employees_Limited
+  packages:
+  - name: EdgeNL_OD_DEMO
+    version: "1.0"
+  - name: OD_Demo_Utils
+    version: "1.0"
+- serviceName: pub.string:objectToString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
 packages:
 - name: EdgeNL_OD_DEMO
   gitServerName: NL_MIHE_Github
