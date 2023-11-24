@@ -66,7 +66,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">misja.heuveling@softwareag.com</value>
-    <value name="lastModifiedDate">1700780855762</value>
+    <value name="lastModifiedDate">1700860553377</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -302,8 +302,22 @@
       <record name="/2/3/0/5" javaclass="com.wm.util.Values">
       </record>
       <record name="/2/4" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">OD_Demo_Utils</value>
+          <value name="groupName">OD_Demo_Utils;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">od.demo.java:concatenateStrings</value>
+          <value name="serviceName">od.demo.java:concatenateStrings</value>
+          <value name="displayName">concatenateStrings</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">9</number>
+        <number name="nodeIndex" type="Long">4</number>
       </record>
     </record>
   </record>
