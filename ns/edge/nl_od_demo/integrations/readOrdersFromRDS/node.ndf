@@ -66,7 +66,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">misja.heuveling@softwareag.com</value>
-    <value name="lastModifiedDate">1700860553377</value>
+    <value name="lastModifiedDate">1700860635174</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -301,6 +301,8 @@
       <null name="/2/3/0/4"/>
       <record name="/2/3/0/5" javaclass="com.wm.util.Values">
       </record>
+      <record name="/2/3/0/6" javaclass="com.wm.util.Values">
+      </record>
       <record name="/2/4" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">PACKAGES</value>
@@ -318,6 +320,12 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">9</number>
         <number name="nodeIndex" type="Long">4</number>
+      </record>
+      <record name="/3" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">10</number>
+        <number name="nodeIndex" type="Long">3</number>
       </record>
     </record>
   </record>

@@ -96,6 +96,10 @@ services:
     version: "1.0"
   - name: OD_Demo_Utils
     version: "1.0"
+- serviceName: od.demo.java:concatenateStrings
+  packages:
+  - name: OD_Demo_Utils
+    version: "1.0"
 packages:
 - name: EdgeNL_OD_DEMO
   gitServerName: NL_MIHE_Github
