@@ -66,11 +66,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">misja.heuveling@softwareag.com</value>
-    <value name="lastModifiedDate">1700860814987</value>
+    <value name="lastModifiedDate">1700995046432</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">default</value>
+      <value name="id">a3e29bbc7f1b48a0a13560cff00c5fcc</value>
       <value name="group">default</value>
-      <value name="name">Default (Cloud)</value>
+      <value name="name">NL_OD_Edge_AWS</value>
     </record>
     <value name="displayName">readOrdersFromRDS</value>
     <value name="description"></value>
@@ -336,6 +336,7 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">9</number>
         <number name="nodeIndex" type="Long">5</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/3" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
