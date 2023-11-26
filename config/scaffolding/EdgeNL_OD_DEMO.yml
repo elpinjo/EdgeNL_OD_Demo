@@ -25,13 +25,13 @@ services:
   - name: EdgeNL_OD_DEMO
     version: "1.0"
   - name: OD_Demo_Utils
-    version: "1.0"
+    version: "1.1"
 - serviceName: edge.nl_od_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:getOrders
   packages:
   - name: EdgeNL_OD_DEMO
     version: "1.0"
   - name: OD_Demo_Utils
-    version: "1.0"
+    version: "1.1"
 - serviceName: edge.nl_od_demo.integrations:insertOrderIntoRDS
   packages:
   - name: EdgeNL_OD_DEMO
@@ -95,11 +95,11 @@ services:
   - name: EdgeNL_OD_DEMO
     version: "1.0"
   - name: OD_Demo_Utils
-    version: "1.0"
+    version: "1.1"
 - serviceName: od.demo.java:concatenateStrings
   packages:
   - name: OD_Demo_Utils
-    version: "1.0"
+    version: "1.1"
 packages:
 - name: EdgeNL_OD_DEMO
   gitServerName: NL_MIHE_Github

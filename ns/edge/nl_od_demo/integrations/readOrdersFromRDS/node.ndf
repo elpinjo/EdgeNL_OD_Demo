@@ -66,11 +66,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">misja.heuveling@softwareag.com</value>
-    <value name="lastModifiedDate">1700995046432</value>
+    <value name="lastModifiedDate">1700996488118</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">a3e29bbc7f1b48a0a13560cff00c5fcc</value>
+      <value name="id">5af5970883e842679a2109de74579215</value>
       <value name="group">default</value>
-      <value name="name">NL_OD_Edge_AWS</value>
+      <value name="name">NL_OD_Demo_AKS</value>
     </record>
     <value name="displayName">readOrdersFromRDS</value>
     <value name="description"></value>
