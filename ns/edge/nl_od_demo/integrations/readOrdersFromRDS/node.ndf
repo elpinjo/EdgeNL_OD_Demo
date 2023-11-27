@@ -66,11 +66,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">misja.heuveling@softwareag.com</value>
-    <value name="lastModifiedDate">1700996488118</value>
+    <value name="lastModifiedDate">1701096357755</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">5af5970883e842679a2109de74579215</value>
+      <value name="id">default</value>
       <value name="group">default</value>
-      <value name="name">NL_OD_Demo_AKS</value>
+      <value name="name">Default (Cloud)</value>
     </record>
     <value name="displayName">readOrdersFromRDS</value>
     <value name="description"></value>
@@ -355,6 +355,10 @@
         </array>
       </record>
       <record name="/3/0" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/4" javaclass="com.wm.util.Values">
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
       </record>
     </record>
   </record>
